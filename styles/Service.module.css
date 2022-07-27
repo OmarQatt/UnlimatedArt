@@ -1,0 +1,39 @@
+
+.servicesection{
+    display: block;
+    text-align: center;
+    padding: 100px 0 80px;
+}
+.serviceitem i{
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+
+}
+.serviceitem h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #555252;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.serviceitem p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #555252;
+    line-height: 24px;
+}
+.serviceitem:hover h3, .serviceicon:hover{
+    color: #914fa5
+
+}
+.row{
+    display: flex;
+}
+.rows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 0;
+}

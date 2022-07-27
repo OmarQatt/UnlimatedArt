@@ -1,0 +1,156 @@
+
+.container{
+    position:relative;
+    display: block;
+    padding: 100px 0 80px;
+ 
+
+
+}
+
+.container .titlesection{
+    display: block;
+    margin-bottom: 80px;
+  
+
+}
+.blogitem{
+    justify-content: center;
+    align-items: center;
+}
+.blogimage{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.blogitem Image{
+    width: 100%;
+    height: auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.blogitem h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #555252;
+    display: block;
+    line-height: 24px;
+    position: relative;
+    margin: 15px 0 ;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.blogitem h3:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    display: block;
+    background: #914fa5;
+    bottom: -8px;
+}
+.blogitem p{
+    font-size: 14px;
+    font-weight: 40px;
+    line-height: 24px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titlesection{
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+}
+.titlesection h1{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    font-size: 48px;
+    color: #515151;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.titlesection h1:before{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 3px;
+    background:#914fa5;
+    position: absolute;
+    bottom: -16px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.titlesection h1:after{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 3px;
+    background:#914fa5;
+    position: absolute;
+    bottom: -30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.titlesection:after{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 7px;
+    background:#914fa5;
+    position: absolute;
+    bottom: -25px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.titlesection.white h1:before{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 3px;
+    background:#fff;
+    position: absolute;
+    bottom: -16px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.titlesection.white h1:after{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 3px;
+    background:#fff;
+    position: absolute;
+    bottom: -30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.titlesection.white:after{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 7px;
+    background:#fff;
+    position: absolute;
+    bottom: -25px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}

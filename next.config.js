@@ -1,4 +1,14 @@
 module.exports = {
+  webpack: (config, { dev, defaultLoaders }) => {
+    config.module.rules.push({
+      test: /\.+(js)$/,
+      loader: defaultLoaders.babel,
+      include: path.resolve(__dirname, '../src'),
+    });
+    return config;
+  }
+};
+module.exports = {
     env: {
         "BASE_URL": "http://localhost:3000",
         "MONGODB_URL": "mongodb+srv://admin:admin@cluster0.7ub6e.mongodb.net/?retryWrites=true&w=majority",
